@@ -1,0 +1,73 @@
+/* Archivo: styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #81567f73;
+    color: #fff;
+  }
+  
+  .glosario-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .glosario-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+ h1 {
+font-size: 4rem;
+color:#630b6e;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight<weight>;
+  font-style: normal;
+      font-variation-settings}
+
+  .glosario-header p {
+    font-family: "Atma" system-ui;
+    font-size: 1.5rem;
+    margin-top: 1px;
+background-color: #25a39d; border: solid 2px #f6fbfc;
+ border-radius:15%;
+ }
+
+  
+  .glosario-lista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px;
+  }
+  
+  .termino {
+    background: #f8f3f8;
+    padding: 15px 20px;
+    border-left: 8px solid #25a39d;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .termino:hover {
+    transform: scale(1.02);
+  }
+  
+  .termino h2 {
+    font-size: 2rem;
+    color: #4d0c2f;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Atma", system-ui;
+  }
+  
+  .termino p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #015e64;
+    font-family: "Atma", system-ui;
+  }
+  
+  
